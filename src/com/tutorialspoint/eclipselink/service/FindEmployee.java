@@ -16,8 +16,9 @@ public class FindEmployee {
 		
 		System.out.println(employee);
 		
-		emf.close();
 		em.close();
+		emf.close();
+		
 	}
 
 }
